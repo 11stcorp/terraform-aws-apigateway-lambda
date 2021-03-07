@@ -1,0 +1,18 @@
+region = "ap-northeast-2"
+
+lambda_zip_filename = temp
+
+listener_arns             = "listen"
+target_group_arn_pm       = "tg:arn:pm"
+target_group_arn_service  = "tg:arn:svc"
+
+tags  = { 
+    developer-number  = 1101388
+    engineer-number   = 1101388
+    develop-team      = cloud-engineering-team
+    project           = tour
+    environment       = dev-tour
+    itsm              = 1
+    repo              = "terraform-env-alpha" 
+    GithubOrg         = "11stcorp" 
+  }
